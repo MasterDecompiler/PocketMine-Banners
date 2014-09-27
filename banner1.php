@@ -21,9 +21,9 @@ if($ostatus == 1) {
 imagefttext($im, 13, 0, 10, 90, $green, $font, $online);
 }
 else {
-imagefttext($im, 13, 0, 10, 90, $red, $font, 'Offline');
+imagefttext($im, 13, 0, 10, 90, $red, $font, 'Server Offline');
 }
-imagefttext($im, 10, 0, 395, 90, $white, $font, 'banner.99leonchang.com');
+imagefttext($im, 10, 0, 395, 90, $white, $font, ' ');
 imagepng($im);
 imagedestroy($im);
 
